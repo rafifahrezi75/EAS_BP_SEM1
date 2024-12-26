@@ -296,7 +296,7 @@ public class EAS_BP_24082010099 {
         int pilihMenu = 0,  pilihKategori = 0; //kasir
         
         do{
-            System.out.println("==== Pogram Kasir Sederhana Final Project EAS UMKM Kedai Kopi Temeji ====\n");
+            System.out.println("==== Program Kasir Sederhana Final Project EAS UMKM Kedai Kopi Temeji ====\n");
             System.out.println("1. Aplikasi Kasir\n2. Aplikasi Admin\n3. Aplikasi Owner\n4. Exit\n");
             
             System.out.print("Pilih Level anda : ");
