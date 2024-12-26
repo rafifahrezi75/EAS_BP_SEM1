@@ -16,7 +16,7 @@ public class EAS_BP_24082010099 {
     static String produk[] = new String[10]; //keranjang
     static int nota[][]    = new int [10][3];
     
-    //array menu, kategori, harga dan jumlah laku
+    //array menu, kategori, harga, jumlah laku, dan laporan harian
     static String menu[][] = {
         {"Indomie_Goreng", "Mie"},
         {"Indomie_Rendang", "Mie"},
@@ -148,6 +148,7 @@ public class EAS_BP_24082010099 {
         return newJumlahLaku;
     }
     
+    //tambah laporan harian
     static int[][] tambahLaporanHarian(int[][] laporanHarian) {
         int[][] newLaporan = new int[laporanHarian.length + 1][7];
         for (int i = 0; i < laporanHarian.length; i++) {
@@ -190,6 +191,7 @@ public class EAS_BP_24082010099 {
         return newJumlahLaku;
     }
     
+    //hapus laporan harian
     static int[][] hapusLaporanHarian(int[][] laporanHarian, int index) {
         int[][] newLaporanHarian = new int[laporanHarian.length - 1][laporanHarian[0].length];
         for (int i = 0, j = 0; i < laporanHarian.length; i++) {
