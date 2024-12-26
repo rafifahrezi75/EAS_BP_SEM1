@@ -40,7 +40,7 @@ public class EAS_BP_24082010099 {
         return format.format(amount);
     }
     
-    //get data semua submenu
+    //get data semua menu
     static void getData(String data[][], int harga[]){
         System.out.println("\n============================================================");
         System.out.println("                         Daftar Menu                        ");
